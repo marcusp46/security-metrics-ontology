@@ -1,0 +1,2400 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#"
+     xml:base="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#affects -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#affects"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#applies_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#applies_to"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#attacked_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#attacked_by"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#contribute -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#contribute"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#defended_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#defended_by"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#describes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#describes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#exploits -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#exploits"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#has_a -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#has_a"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#increases -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#increases"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#interact_with -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#interact_with"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#ASLR-Induced_Effective_Entropy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#ASLR-Induced_Effective_Entropy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Proactive_Defense_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#ASLR-Induced_Entropy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#ASLR-Induced_Entropy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Proactive_Defense_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Absolute -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Absolute">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Scale"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Attack_Complexity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Attack_Complexity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Exploitability_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Attack_Metric -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Attack_Metric">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Metric"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#describes"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Attacks"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#contribute"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Situation_Metric"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Attack_Surface -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Attack_Surface">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Interface-Induced_Vulnerabilities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Attack_Vector -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Attack_Vector">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Exploitability_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Attacks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Attacks">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#affects"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Situation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#exploits"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Vulnerabilities"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#interact_with"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Defenses"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Authorization_Scope -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Authorization_Scope">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Exploitability_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Availability_Impact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Availability_Impact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Impact_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Average_Indirect_Target_Reduction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Average_Indirect_Target_Reduction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Preventive_Defense_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Average_Target_Size -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Average_Target_Size">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Preventive_Defense_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Blocking_Rate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Blocking_Rate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Freqency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Botnet_Efficiency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Botnet_Efficiency">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Botnets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Botnet_Robustness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Botnet_Robustness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Botnets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Botnet_Size -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Botnet_Size">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Botnets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Botnets -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Botnets">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Attack_Metric"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Breach_Frequency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Breach_Frequency">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Freqency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Breach_Size -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Breach_Size">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Freqency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#CVSS_Base_Metrics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#CVSS_Base_Metrics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Severity_of_Individual_Vulnerabilities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#CVSS_Environmental_Metrics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#CVSS_Environmental_Metrics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#CVSS_Base_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#CVSS_Temporal_Metrics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#CVSS_Temporal_Metrics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#CVSS_Base_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Collective_Detection_Strength -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Collective_Detection_Strength">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Reactive_Defense_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Collective_Effectiveness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Collective_Effectiveness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Collective_Detection_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Confidence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Confidence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Monitoring"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Confidentiality_Impact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Confidentiality_Impact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Impact_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Control-Plan_Reputation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Control-Plan_Reputation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Security_State"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Cost -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Cost">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Monitoring"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Cost_of_Incidents -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Cost_of_Incidents">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Damage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Coverage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Coverage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Preventive_Defense_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Cybersecurity_Posture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Cybersecurity_Posture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Security_State"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Damage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Damage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Security_Incidents"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Defense_Metric -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Defense_Metric">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Metric"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#contribute"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Situation_Metric"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#describes"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Defenses"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Defenses -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Defenses">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#interact_with"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Attacks"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#affects"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Situation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Delay_in_Incident_Detection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Delay_in_Incident_Detection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Damage"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#affects"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Cost_of_Incidents"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Depth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Depth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Topology_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Detection_Time -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Detection_Time">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Individual_Detection_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Deterministic_Metrics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Deterministic_Metrics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Severity_of_Collective_Vulnerabilities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Distribution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Distribution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Scale"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Effective_Base_Metric -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Effective_Base_Metric">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Probabilistic_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Effective_Base_Score -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Effective_Base_Score">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Probabilistic_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Effort-to-Security_Failure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Effort-to-Security_Failure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Effort_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Effort_Metrics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Effort_Metrics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Deterministic_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Encounter_Rate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Encounter_Rate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Freqency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Evasion_Resistance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Evasion_Resistance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Preventive_Defense_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Evasion_Techniques -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Evasion_Techniques">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Attack_Metric"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Excercised_Attack-Surface -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Excercised_Attack-Surface">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Interface-Induced_Vulnerabilities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Existence/Number/Length_of_Attack_Path -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Existence/Number/Length_of_Attack_Path">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Topology_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Exploit_Code_Maturity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Exploit_Code_Maturity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#CVSS_Temporal_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Exploitability_Metrics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Exploitability_Metrics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#CVSS_Base_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#False-Negative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#False-Negative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Individual_Detection_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#False-Positive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#False-Positive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Individual_Detection_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Fractions_of_Compromised_Computers_at_Time_t -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Fractions_of_Compromised_Computers_at_Time_t">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Security_State"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#affects"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Cybersecurity_Posture"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Freqency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Freqency">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Security_Incidents"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Future_Exploited_Vulnerability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Future_Exploited_Vulnerability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Temporal_Characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Future_Vulnerability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Future_Vulnerability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Temporal_Characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Historical_Vulnerability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Historical_Vulnerability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Temporal_Characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Historically_Exploited -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Historically_Exploited">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Temporal_Characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#IDOC_Curve -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#IDOC_Curve">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Individual_Detection_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#ISP_Badness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#ISP_Badness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Security_State"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Impact_Metrics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Impact_Metrics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#CVSS_Base_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Incident_Rate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Incident_Rate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Freqency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Increased_FN -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Increased_FN">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Evasion_Techniques"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Increased_FP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Increased_FP">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Evasion_Techniques"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Indirect_MTD_Effectiveness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Indirect_MTD_Effectiveness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Proactive_Defense_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Individual_Detection_Stength_Damage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Individual_Detection_Stength_Damage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Individual_Detection_Strength_Cost"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Individual_Detection_Strength -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Individual_Detection_Strength">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Reactive_Defense_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Individual_Detection_Strength_Cost -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Individual_Detection_Strength_Cost">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Individual_Detection_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Individual_Detection_Strength_Operational -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Individual_Detection_Strength_Operational">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Individual_Detection_Strength_Cost"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Individual_Detection_Strength_Response -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Individual_Detection_Strength_Response">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Individual_Detection_Strength_Cost"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Infection_Rate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Infection_Rate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Malware_Spreading"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Integrity_Impact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Integrity_Impact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Impact_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Interface-Induced_Vulnerabilities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Interface-Induced_Vulnerabilities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#System_Vulnerability_Metric"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Interval -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Interval">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Scale"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Intrusion_Detection_Capability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Intrusion_Detection_Capability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Individual_Detection_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Lifetime_of_Zero-Day_Attacks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Lifetime_of_Zero-Day_Attacks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Zero-Day_Attack"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Likelihood_of_Exploitation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Likelihood_of_Exploitation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Probabilistic_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Malware_Spreading -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Malware_Spreading">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Attack_Metric"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Metric -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Metric"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Modified_Base_Metrics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Modified_Base_Metrics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#CVSS_Environmental_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Monitoring -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Monitoring">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Reactive_Defense_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Monitoring_Coverage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Monitoring_Coverage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Monitoring"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Necessary_Defense -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Necessary_Defense">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Effort_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Network_Bandwidth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Network_Bandwidth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Botnets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Network_Diversity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Network_Diversity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Overall_Defense_Strength"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#affects"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Penetration_Resistance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Network_Maliciousness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Network_Maliciousness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Security_State"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Nominal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Nominal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Scale"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Number_of_Zero-Day_Victims -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Number_of_Zero-Day_Victims">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Zero-Day_Attack"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Obfuscation_Prevalence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Obfuscation_Prevalence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Evasion_Techniques"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Ordinal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Ordinal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Scale"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Overall_Defense_Strength -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Overall_Defense_Strength">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Defense_Metric"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Packer_Structural_Complexity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Packer_Structural_Complexity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Evasion_Techniques"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#affects"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Evasion_Resistance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Parameterized/Statistical_Password_Guessability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Parameterized/Statistical_Password_Guessability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Susceptibility_to_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Password_Strength -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Password_Strength">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Susceptibility_to_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Password_Vulnerabilities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Password_Vulnerabilities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#System_Users&apos;_Vulnerabilities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Penetration_Resistance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Penetration_Resistance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Overall_Defense_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Preventive_Defense_Strength -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Preventive_Defense_Strength">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Defense_Metric"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Proactive_Defense_Strength -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Proactive_Defense_Strength">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Defense_Metric"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Probabilistic_Metrics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Probabilistic_Metrics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Severity_of_Collective_Vulnerabilities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Probability_a_Computer_is_Compromised_at_Time_t -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Probability_a_Computer_is_Compromised_at_Time_t">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Security_State"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#affects"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Cybersecurity_Posture"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#ROC_Curve -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#ROC_Curve">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Individual_Detection_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Ratio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Ratio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Scale"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Reaction_Time -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Reaction_Time">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Preventive_Defense_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Reactive_Defense_Strength -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Reactive_Defense_Strength">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Defense_Metric"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Redundancy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Redundancy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Monitoring"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Relative_Detection_Strength -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Relative_Detection_Strength">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Reactive_Defense_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Relative_Effectiveness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Relative_Effectiveness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Relative_Detection_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Remediation_Level -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Remediation_Level">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#CVSS_Temporal_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Report_Confidence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Report_Confidence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#CVSS_Temporal_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Rogue_Network -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Rogue_Network">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Security_State"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Scale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Scale"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Security_Budget -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Security_Budget">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Security_Investments"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Security_Incidents -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Security_Incidents">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Situation_Metric"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Security_Investments -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Security_Investments">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Situation_Metric"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Security_Requirement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Security_Requirement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#CVSS_Environmental_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Security_Spending -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Security_Spending">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Security_Investments"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Security_State -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Security_State">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Situation_Metric"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Severity_of_Collective_Vulnerabilities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Severity_of_Collective_Vulnerabilities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Software_Vulnerabilities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Severity_of_Individual_Vulnerabilities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Severity_of_Individual_Vulnerabilities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Software_Vulnerabilities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Situation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Situation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Situation_Metric -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Situation_Metric">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Metric"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#describes"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Situation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Software_Vulnerabilities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Software_Vulnerabilities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#System_Vulnerability_Metric"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Susceptibility_to_Attacks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Susceptibility_to_Attacks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#System_Users&apos;_Vulnerabilities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Susceptibility_to_Malware_Infection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Susceptibility_to_Malware_Infection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Susceptibility_to_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Susceptibility_to_Phishing_Attacks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Susceptibility_to_Phishing_Attacks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Susceptibility_to_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#System">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#has_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Vulnerabilities"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#attacked_by"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Attacks"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#has_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Situation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#defended_by"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Defenses"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#System_Users&apos;_Vulnerabilities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#System_Users&apos;_Vulnerabilities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#System_Vulnerability_Metric"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#System_Vulnerability_Metric -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#System_Vulnerability_Metric">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Metric"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#describes"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Vulnerabilities"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#contribute"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Situation_Metric"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Targeted_Attacks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Targeted_Attacks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Attack_Metric"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Targeted_Threat_Index -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Targeted_Threat_Index">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Targeted_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Temporal_Characteristics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Temporal_Characteristics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Software_Vulnerabilities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Tendency-to-be-Exploited -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Tendency-to-be-Exploited">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Temporal_Characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Time-to-First_Compromise -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Time-to-First_Compromise">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Freqency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Time_Between_Incidents -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Time_Between_Incidents">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Freqency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Topology_Metrics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Topology_Metrics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Deterministic_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#True-Negative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#True-Negative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Individual_Detection_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#True-Positive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#True-Positive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Individual_Detection_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#User_Interaction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#User_Interaction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Exploitability_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Vulnerabilities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Vulnerabilities">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#affects"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Situation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Vulnerability_Lifetime -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Vulnerability_Lifetime">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Temporal_Characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Weakest_Adversary -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Weakest_Adversary">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Effort_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Zero-Day_Attack -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Zero-Day_Attack">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Attack_Metric"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#k-Zero-Day-Safety -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#k-Zero-Day-Safety">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Effort_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#ASLR-Induced_Effective_Entropy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#ASLR-Induced_Effective_Entropy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#ASLR-Induced_Effective_Entropy"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Proactive_Defense_Strength"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Absolute"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#ASLR-Induced_Entropy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#ASLR-Induced_Entropy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#ASLR-Induced_Entropy"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Proactive_Defense_Strength"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Absolute"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Absolute -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Absolute">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Absolute"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Attack_Complexity -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Attack_Complexity">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Attack_Complexity"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Exploitability_Metrics"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Attack_Surface -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Attack_Surface">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Attack_Surface"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Interface-Induced_Vulnerabilities"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Absolute"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Attack_Vector -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Attack_Vector">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Attack_Vector"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Exploitability_Metrics"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Attacks -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Attacks">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Attacks"/>
+        <interact_with rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Defenses"/>
+        <affects rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Situation"/>
+        <exploits rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Vulnerabilities"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Authorization_Scope -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Authorization_Scope">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Authorization_Scope"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Exploitability_Metrics"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Availability_Impact -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Availability_Impact">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Availability_Impact"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Impact_Metrics"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Average_Indirect_Target_Reduction -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Average_Indirect_Target_Reduction">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Average_Indirect_Target_Reduction"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Preventive_Defense_Strength"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Absolute"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Average_Target_Size -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Average_Target_Size">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Average_Target_Size"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Preventive_Defense_Strength"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Absolute"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Blocking_Rate -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Blocking_Rate">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Blocking_Rate"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Freqency"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Ratio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Botnet_Efficiency -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Botnet_Efficiency">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Botnet_Efficiency"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Botnets"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Absolute"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Botnet_Robustness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Botnet_Robustness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Botnet_Robustness"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Botnets"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Absolute"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Botnet_Size -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Botnet_Size">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Botnet_Size"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Botnets"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Absolute"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Breach_Frequency -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Breach_Frequency">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Breach_Frequency"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Freqency"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Ratio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Breach_Size -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Breach_Size">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Breach_Size"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Freqency"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Absolute"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Collective_Effectiveness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Collective_Effectiveness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Collective_Detection_Strength"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Collective_Effectiveness"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Ratio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Confidentiality_Impact -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Confidentiality_Impact">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Confidentiality_Impact"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Impact_Metrics"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Control-Plan_Reputation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Control-Plan_Reputation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Control-Plan_Reputation"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Security_State"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Ratio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Cost_of_Incidents -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Cost_of_Incidents">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Cost_of_Incidents"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Damage"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Absolute"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Coverage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Coverage">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Coverage"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Preventive_Defense_Strength"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Ordinal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Cybersecurity_Posture -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Cybersecurity_Posture">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Cybersecurity_Posture"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Security_State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Damage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Damage">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Individual_Detection_Stength_Damage"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Individual_Detection_Strength_Cost"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Security_Investments"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Absolute"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Defenses -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Defenses">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Defenses"/>
+        <interact_with rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Attacks"/>
+        <affects rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Situation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Delay_in_Incident_Detection -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Delay_in_Incident_Detection">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Damage"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Delay_in_Incident_Detection"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Absolute"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Depth -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Depth">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Depth"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Topology_Metrics"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Ratio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Detection_Time -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Detection_Time">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Detection_Time"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Individual_Detection_Strength"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Absolute"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Distribution -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Distribution">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Distribution"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Effective_Base_Metric -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Effective_Base_Metric">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Effective_Base_Metric"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Probabilistic_Metrics"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Nominal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Effective_Base_Score -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Effective_Base_Score">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Effective_Base_Score"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Probabilistic_Metrics"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Absolute"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Effort-to-Security-Failure -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Effort-to-Security-Failure">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Effort-to-Security_Failure"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Effort_Metrics"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Nominal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Encounter_Rate -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Encounter_Rate">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Encounter_Rate"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Freqency"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Ratio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Evasion_Resistance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Evasion_Resistance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Evasion_Resistance"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Preventive_Defense_Strength"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Nominal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Exercised_Attack_Surface -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Exercised_Attack_Surface">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Excercised_Attack-Surface"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Interface-Induced_Vulnerabilities"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Ratio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Existence/Number/Length_of_Attack_Path -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Existence/Number/Length_of_Attack_Path">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Existence/Number/Length_of_Attack_Path"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Topology_Metrics"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Absolute"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Exploit_Code_Maturity -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Exploit_Code_Maturity">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#CVSS_Temporal_Metrics"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Exploit_Code_Maturity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#False-Negative -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#False-Negative">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#False-Negative"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Individual_Detection_Strength"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Ratio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#False-Positive -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#False-Positive">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#False-Positive"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Individual_Detection_Strength"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Ratio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Fractions_of_Compromised_Computers_at_Time_t -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Fractions_of_Compromised_Computers_at_Time_t">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Fractions_of_Compromised_Computers_at_Time_t"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Security_State"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Ratio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Future_Exploited_Vulnerability -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Future_Exploited_Vulnerability">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Future_Exploited_Vulnerability"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Temporal_Characteristics"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Distribution"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Future_Vulnerability -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Future_Vulnerability">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Future_Vulnerability"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Temporal_Characteristics"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Distribution"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Historical_Vulnerability -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Historical_Vulnerability">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Historical_Vulnerability"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Temporal_Characteristics"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Distribution"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Historically_Exploited -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Historically_Exploited">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Historically_Exploited"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Temporal_Characteristics"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Absolute"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#IDOC_Curve -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#IDOC_Curve">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#IDOC_Curve"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Individual_Detection_Strength"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Absolute"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#ISP_Badness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#ISP_Badness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#ISP_Badness"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Security_State"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Ratio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Incident_Rate -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Incident_Rate">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Freqency"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Incident_Rate"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Ratio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Increased_FN -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Increased_FN">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Evasion_Techniques"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Increased_FN"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Ratio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Increased_FP -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Increased_FP">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Evasion_Techniques"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Increased_FP"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Ratio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Indirect_MTD_Effectiveness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Indirect_MTD_Effectiveness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Indirect_MTD_Effectiveness"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Proactive_Defense_Strength"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Ratio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Infection_Rate -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Infection_Rate">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Botnets"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Infection_Rate"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Malware_Spreading"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Ratio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Integrity_Impact -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Integrity_Impact">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Impact_Metrics"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Integrity_Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Interval -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Interval">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Interval"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Intrusion_Detection_Capability -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Intrusion_Detection_Capability">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Individual_Detection_Strength"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Intrusion_Detection_Capability"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Absolute"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Lifetime_of_Zero-Day_Attacks -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Lifetime_of_Zero-Day_Attacks">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Lifetime_of_Zero-Day_Attacks"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Susceptibility_to_Attacks"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Zero-Day_Attack"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Absolute"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Likelihood_of_Exploitation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Likelihood_of_Exploitation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Likelihood_of_Exploitation"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Probabilistic_Metrics"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Ratio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Modified_Base_Metrics -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Modified_Base_Metrics">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#CVSS_Environmental_Metrics"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Modified_Base_Metrics"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Monitoring_Confidence -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Monitoring_Confidence">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Confidence"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Monitoring"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Ratio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Monitoring_Cost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Monitoring_Cost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Cost"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Monitoring"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Absolute"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Monitoring_Coverage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Monitoring_Coverage">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Monitoring"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Monitoring_Coverage"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Nominal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Monitoring_Redundancy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Monitoring_Redundancy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Monitoring"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Redundancy"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Absolute"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Necessary_Defense -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Necessary_Defense">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Effort_Metrics"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Necessary_Defense"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Nominal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Network_Bandwidth -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Network_Bandwidth">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Botnets"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Network_Bandwidth"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Absolute"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Network_Diversity -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Network_Diversity">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Network_Diversity"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Overall_Defense_Strength"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Nominal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Network_Maliciousness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Network_Maliciousness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Network_Maliciousness"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Security_State"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Ratio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Nominal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Nominal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Nominal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Number_of_Zero-Day_Victims -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Number_of_Zero-Day_Victims">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Number_of_Zero-Day_Victims"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Susceptibility_to_Attacks"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Zero-Day_Attack"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Absolute"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Obfuscation_Prevalence -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Obfuscation_Prevalence">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Evasion_Techniques"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Obfuscation_Prevalence"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Ratio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Operational -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Operational">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Individual_Detection_Strength_Cost"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Individual_Detection_Strength_Operational"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Absolute"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Ordinal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Ordinal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Ordinal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Packer_Structural_Complexity -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Packer_Structural_Complexity">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Evasion_Techniques"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Packer_Structural_Complexity"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Nominal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Parameterized/Statistical_Password_Guessability -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Parameterized/Statistical_Password_Guessability">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Parameterized/Statistical_Password_Guessability"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Password_Vulnerabilities"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Ratio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Password_Strength -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Password_Strength">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Password_Strength"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Password_Vulnerabilities"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Ordinal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Penetration_Resistance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Penetration_Resistance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Overall_Defense_Strength"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Penetration_Resistance"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Nominal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Privilege_Required -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Privilege_Required">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Exploitability_Metrics"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Probability_a_Computer_is_Compromised_at_Time_t -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Probability_a_Computer_is_Compromised_at_Time_t">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Probability_a_Computer_is_Compromised_at_Time_t"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Security_State"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Ratio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#ROC_Curve -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#ROC_Curve">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Individual_Detection_Strength"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#ROC_Curve"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Absolute"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Ratio -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Ratio">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Ratio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Reaction_Time -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Reaction_Time">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Freqency"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Preventive_Defense_Strength"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Reaction_Time"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Absolute"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Relative_Effectiveness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Relative_Effectiveness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Relative_Detection_Strength"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Relative_Effectiveness"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Ratio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Remediation_Level -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Remediation_Level">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#CVSS_Temporal_Metrics"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Remediation_Level"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Report_Confidence -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Report_Confidence">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#CVSS_Temporal_Metrics"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Report_Confidence"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Response -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Response">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Individual_Detection_Strength_Cost"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Individual_Detection_Strength_Response"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Absolute"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Rogue_Network -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Rogue_Network">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Rogue_Network"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Security_State"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Absolute"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Secuirty_Budget -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Secuirty_Budget">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Security_Budget"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Security_Investments"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Absolute"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Security_Requirement -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Security_Requirement">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#CVSS_Environmental_Metrics"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Security_Requirement"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Security_Spending -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Security_Spending">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Security_Investments"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Security_Spending"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Absolute"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Situation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Situation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Situation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Susceptibility_to_Malware_Infection -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Susceptibility_to_Malware_Infection">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Susceptibility_to_Attacks"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Susceptibility_to_Malware_Infection"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Ratio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Susceptibility_to_Phishing_Attacks -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Susceptibility_to_Phishing_Attacks">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Susceptibility_to_Attacks"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Susceptibility_to_Phishing_Attacks"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Ratio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#System -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#System">
+        <attacked_by rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Attacks"/>
+        <defended_by rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Defenses"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Situation"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Vulnerabilities"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Targetd_Threat_Index -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Targetd_Threat_Index">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Targeted_Attacks"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Targeted_Threat_Index"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Absolute"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Tendency-to-be-Exploited -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Tendency-to-be-Exploited">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Temporal_Characteristics"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Tendency-to-be-Exploited"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Ratio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Time-to-First_Compromise -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Time-to-First_Compromise">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Freqency"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Time-to-First_Compromise"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Absolute"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Time_Between_Incidents -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Time_Between_Incidents">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Freqency"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Time_Between_Incidents"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Absolute"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#True-Negative -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#True-Negative">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Individual_Detection_Strength"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#True-Negative"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Ratio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#True-Positive -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#True-Positive">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Individual_Detection_Strength"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#True-Positive"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Ratio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#User_Interaction -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#User_Interaction">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Exploitability_Metrics"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#User_Interaction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Vulnerabilities -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Vulnerabilities">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Vulnerabilities"/>
+        <affects rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Situation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Vulnerability_Lifetime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Vulnerability_Lifetime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Temporal_Characteristics"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Vulnerability_Lifetime"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Distribution"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Weakest_Adversary -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Weakest_Adversary">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Effort_Metrics"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Weakest_Adversary"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Nominal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#k-Zero-Day-Safety -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#k-Zero-Day-Safety">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Effort_Metrics"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#k-Zero-Day-Safety"/>
+        <has_a rdf:resource="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Nominal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Increased_FN"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Increased_FP"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Obfuscation_Prevalence"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mba737/ontologies/2016/4/untitled-ontology-2#Packer_Structural_Complexity"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
